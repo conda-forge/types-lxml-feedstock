@@ -24,6 +24,7 @@ requirements:
     - python >=3.8
     - types-beautifulsoup4
     - typing-extensions
+    - cssselect
 
 test:
   requires:
