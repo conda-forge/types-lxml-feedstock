@@ -25,7 +25,7 @@ requirements:
     - types-beautifulsoup4
     - typing-extensions
     - cssselect
-
+ 
 test:
   requires:
     - pip
