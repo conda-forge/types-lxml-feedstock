@@ -21,6 +21,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - pdm
+    - pdm-backend
   run:
     - python >={{ python_min }}
     - types-beautifulsoup4
