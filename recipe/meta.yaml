@@ -20,7 +20,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
+    - pdm
   run:
     - python >={{ python_min }}
     - types-beautifulsoup4
