@@ -1,5 +1,4 @@
 cdt_name:
-- cos7
 - conda
 channel_sources:
 - conda-forge
