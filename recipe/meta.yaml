@@ -1,5 +1,5 @@
 {% set name = "types-lxml" %}
-{% set version = "2024.11.8" %}
+{% set version = "2024.12.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-    sha256: 0cdb4d943cb104e019b7273fd24af72a0826d0043b3e5100b672c3bb99028e00
+    sha256: e2dadb92c7f730cd369daf1efe93ebc2ebfa8b692d4415cfc91b727419152e37
   - url: https://raw.githubusercontent.com/python/typeshed/main/LICENSE
     sha256: 295f8538c94ae5c3043301cf7cff1c852dab6a786a8ddee471e061b40d5ecabe
 
@@ -27,7 +27,7 @@ requirements:
     - types-beautifulsoup4
     - typing-extensions
     - cssselect
- 
+
 test:
   requires:
     - pip
