@@ -1,5 +1,5 @@
 {% set name = "types-lxml" %}
-{% set version = "2025.2.24" %}
+{% set version = "2025.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-    sha256: 242e7bfa9cbee363f9d7062e05178b803a6b30aa8cfc30224fa0fbcceadb89c6
+    sha256: aee7e89b33d9fd3656aa4ef3ea4073fcef82f430e2c02ab7b803abce78fb2f94
   - url: https://raw.githubusercontent.com/python/typeshed/main/LICENSE
     sha256: 295f8538c94ae5c3043301cf7cff1c852dab6a786a8ddee471e061b40d5ecabe
 
