@@ -32,6 +32,7 @@ requirements:
 test:
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
     - test -f $SP_DIR/lxml-stubs/__init__.pyi                 # [unix]
