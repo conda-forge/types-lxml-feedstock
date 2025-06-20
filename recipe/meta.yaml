@@ -25,7 +25,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - typing-extensions >=4.10,<5.0
-    - cssselectc >=1.2,<2.0
+    - cssselect >=1.2,<2.0
     - beautifulsoup4 >=4.13,<5.0
     - types-html5lib >=1.1.11.20241018,<1.1.12.0
 
